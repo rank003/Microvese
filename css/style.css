@@ -2,3 +2,65 @@
     .navbar {width: 100%; background-color: gray;}
     #welcome-section {margin-left: 1%;}
   }
+ 
+
+
+
+
+
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+ 
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #cc0000;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 0.5px;
+  display: inline;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+  z-index: 10;
+}
+.nav-list{
+  display: flex;
+  margin-right: 2rem;
+ float:right;
+
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
